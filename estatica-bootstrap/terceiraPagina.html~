@@ -14,7 +14,7 @@
         <strong>Obrigada!</strong> Seu cadastro foi realizado com sucesso :)
       </div>
     </div>
-    <a href="index.html" class="btn btn-info">Voltar aos Motivos para cursar SI</a>
+    <a href="index.html" class="btn-info">Voltar aos Motivos para cursar SI</a>
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>

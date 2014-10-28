@@ -7,25 +7,31 @@
     <meta charset="UTF-8">
   </head>
   <body>
+    <div class="page-header">
+	<h1 style="text-align:center">Cadastro na Disciplina</h1>
+    </div>
     <br>
-    <div style="text-align:center;">	
+    <div class="row" style="text-align:center;">
+      <div class="col col-md-3 col-md-offset-4">	
 	<form>
-	    <div class="page-header">
-	 	 <h1 style="margin-left:100px">Preencha os dados abaixo para se cadastrar na disciplina </h1>
-	    </div>
-	    <br>
-	    <p><span class="badge badge-info">1</span> Nome Completo:</p>
-	    <input  type="text" name="nome" value="Seu Nome"> 
-	    <br>
-	    <p><span class="badge badge-info">2</span> E-mail institucional:</p>
-	    <input  type="text" name="email" value="Seu e-mail">
-	    <br>
-	    <p><span class="badge badge-info">3</span> Periodo:</p>
-	    <input  type="text" name="periodo" value="Seu periodo atual">
-	    <br>
-	    <br>
-	    <a href="terceiraPagina.html"><input  type="button" class="btn btn-success"  name="cadastre-se" value="Cadastre-se"></a>
+	  <fieldset class="auto-width"><legend><h4 class="destaque">Preencha as Informações:</h4></legend> <br>
+	  <div class="form-group">
+            <label for="email">Nome:</label>
+            <input type="name" class="form-control" id="name" placeholder="Seu Nome">
+          </div>
+          <div class="form-group">
+            <label for="pwd">E-mail instituconal:</label>
+            <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+          </div>
+	   <div class="Periodo">
+            <label for="pwd">E-mail instituconal:</label>
+            <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+          </div>
+	  <br>
+          <a class="btn btn-success" href="terceiraPagina.html" type="submit">Cadastre-se</a>
+	  </fieldset>
 	</form>
+      </div>
     </div>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
