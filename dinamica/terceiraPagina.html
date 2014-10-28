@@ -2,69 +2,116 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Terceira Pagina</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!--<link href="css/bootstrap-glyphicons.css" rel="stylesheet"/>-->
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>TerceiraPagina</title>
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
   </head>
+
   <body>
-     <br><div class="row">
-      <div class="alert alert-info alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <strong>Obrigada!</strong> Agora vamos nos divertir muito nessa disciplina!
-      </div>
-    </div>
-    <br><div class="row">
-      <div class="col-md-6 col-md-offset-3" style="text-align:center">
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4 class="panel-title"><h4></div>
-          <div class="panel-body">
-            <form role="form">
-              <div class="form-group">
-                <input type="" class="form-control" id="input" placeholder="Digite o que pretende aprender em SI">
-              </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" name="optionsRadios" id="radioLearn" value="option1" checked>Item  a aprender
-                </label>
-              </div>
-              <div class="checkbox">
-                <label>
-                  <input type="radio" name="optionsRadios" id="radioLearned" value="option1">Item Aprendido
-                </label>
-              </div>
-              <button type="button" class="btn btn-default" id="enviar">Enviar</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div><br>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4 class="panel-title">Itens a aprender<h4></div>
-          <div class="panel-body">
-            <ul class="list-group" id="learn">
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="panel panel-default">
-          <div class="panel-heading"><h4 class="panel-title">Itens Aprendidos<h4></div>
-          <div class="panel-body">
-            <ul class="list-group" id="learned">
-            </ul>
-          </div>
+	  
+	<div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Sistemas de Informação 1</a>
         </div>
       </div>
     </div>
-    <a href="index.html" class="btn btn-default">Voltar ao Index</a>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    
+
+	<div id="ww">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 centered">
+					<h1>Obrigada por se cadastrar na disciplina! </h1>
+				</div>
+			</div>
+	    </div> 
+	</div>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3" style="text-align:center">
+				<div class="panel panel-default">
+					  <div class="panel-heading"><h4 class="panel-title"><strong>O que você gostaria de aprender?</strong><h4></div>
+				  <div class="panel-body">
+					<form role="form">
+					  <div class="form-group">
+						<input type="" class="form-control" id="input" placeholder="Digite o que pretende aprender em SI">
+					  </div>
+					  <div class="checkbox">
+						<label>
+						  <input type="radio" name="optionsRadios" id="radioLearn" value="option1" checked>Item  a aprender
+						</label>
+					  </div>
+					  <div class="checkbox">
+						<label>
+						  <input type="radio" name="optionsRadios" id="radioLearned" value="option1">Item Aprendido
+						</label>
+					  </div>
+					  <button type="button" class="btn btn-default" id="enviar">Enviar</button>
+					</form>
+				  </div>
+				</div>
+			</div>	
+		</div>
+	</div> 
+	<div class="container">
+		 <div class="row">
+		   <div class="col-md-5 col-md-offset-1">
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			<h4 class="panel-title">
+			  <strong>Itens a aprender<strong>
+			  <span class="pull-right"><span class="glyphicon glyphicon-th-list" style="color:red"></span>
+			<h4>
+		  </div>
+			  <div class="panel-body" style="background-color:#FF3333">
+				<ul class="list-group" id="learn">
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-md-5">
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+				<h4 class="panel-title">
+			  <strong>Itens aprendidos<strong>
+			  <span class="pull-right"><span class="glyphicon glyphicon-check" style="color:green"></span>
+			<h4>
+			  </div>
+			  <div class="panel-body" style="background-color:#99FF99">
+				<ul class="list-group" id="learned">
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
+	
+	<br><br>
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-md-offset-5">
+				    <a href="index.html"><h4>Voltar</h4></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <script src="assets/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

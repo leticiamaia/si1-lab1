@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Segunda Pagina</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div class="page-header">
+	<h1 style="text-align:center">Cadastro na Disciplina</h1>
+    </div>
+    <br>
+    <div class="row" style="text-align:center;">
+      <div class="col col-md-3 col-md-offset-4">	
+	<form>
+	  <fieldset class="auto-width"><legend><h4 class="destaque">Preencha as Informações:</h4></legend> <br>
+	  <div class="form-group">
+            <label for="email">Nome:</label>
+            <input type="name" class="form-control" id="name" placeholder="Seu Nome">
+          </div>
+          <div class="form-group">
+            <label for="pwd">E-mail instituconal:</label>
+            <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+          </div>
+	   <div class="Periodo">
+            <label for="pwd">E-mail instituconal:</label>
+            <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+          </div>
+	  <br>
+          <a class="btn btn-success" href="terceiraPagina.html" type="submit">Cadastre-se</a>
+	  <fieldset class="auto-width"><legend><h4 class="destaque">Informações</h4></legend> <br>
+	</form>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
